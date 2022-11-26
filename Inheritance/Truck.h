@@ -2,7 +2,7 @@
 #define TRUCK_H
 #include "Vehicle.h"
 
-class Truck :
+class Truck : 
     public Vehicle
 {
 private:
@@ -20,6 +20,8 @@ public:
 
     //Accessors:
     inline int getTowingCapacity() { return towingCapacity; }
+
+    void displayInfo();
 };
 
 #endif TRUCK_H
