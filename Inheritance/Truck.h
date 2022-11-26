@@ -11,7 +11,7 @@ public:
     //constructors:
     Truck() : towingCapacity(1000), Vehicle() {}
 
-    Truck(std::string man, int yB, int tC), Vehicle(man, yB) {
+    Truck(std::string man, int yB, int tC): Vehicle(man, yB) {
         towingCapacity = tC;
     }
 
